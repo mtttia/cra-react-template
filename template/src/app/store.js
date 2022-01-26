@@ -16,10 +16,10 @@ let store = configureStore({
 
 
 //uncomment row below to save store from LocalStorage
-store.subscribe(() => {
-  let toSave = store.getState()
-  let save = { ...toSave, weather: {weather:[]} }
-  localStorage.setItem('reduxState', JSON.stringify(save))
-})
+// store.subscribe(() => {
+//   let toSave = store.getState()
+//   let save = { ...toSave, weather: {weather:[]} }
+//   localStorage.setItem('reduxState', JSON.stringify(save))
+// })
 
 export default store
