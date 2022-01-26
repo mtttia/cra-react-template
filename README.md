@@ -11,8 +11,8 @@ template for create react app
 
 # get started
 in your environment:
-1- clone the repo git clone https://github.com/mtttia/cra-react-template.git
-2- npx create-rect-app my-app --template file:./cra-react-template
+- 1- clone the repo git clone https://github.com/mtttia/cra-react-template.git
+- 2- npx create-rect-app my-app --template file:./cra-react-template
 
 # central memory with redux
 
